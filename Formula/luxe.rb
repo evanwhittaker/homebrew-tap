@@ -1,25 +1,25 @@
 class Luxe < Formula
-  desc "A terminal coding agent: streaming chat, tools, guided diff review, and LSP/DAP code intelligence"
+  desc "A beautiful coding agent for your terminal."
   homepage "https://luxe.dev"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.2/luxe-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "98d7d4b2bb85c2ee5816d8c9ed09d548e087c1a1529c160514402f8bb3bec0d0"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.3/luxe-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "3f2efe736cb848c06568b8711c2de42ce517ff594095ea33bfc207505ff11718"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.2/luxe-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "640fd20db2d7a71fb0d88ed4e68bec468e97688b89ba94beaecc63d215889bdf"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.3/luxe-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "cc6b916ad46f2a590a3dd179ad2483907cdda7dd2029ca828258fdfeb593a61a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.2/luxe-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0c42a0a7eea583b1db20e174b72a31087555f9b5a16469a55cb8c47b7beab0f3"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.3/luxe-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b748e77bee59da5d18ce38204108ed561459c93499e4c8f7962170810a73941a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.2/luxe-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4280c8684ccab2a2d4a22d095b32cd6ddd74af9cd2836fc56d50baaa6a203154"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.3/luxe-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8cedb0fc4b3ac4c8619b6b39d20317cb824b2a6ec70045ab7c201294fd7c8130"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
