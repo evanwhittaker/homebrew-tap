@@ -1,25 +1,25 @@
 class Luxe < Formula
   desc "A coding agent for your terminal."
   homepage "https://luxe.dev"
-  version "0.1.6"
+  version "0.1.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.6/luxe-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "0107cbe3be2d00ecaba2d09a76bb58f17a89c00e30eb6c0149d2aec509afc0e6"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.7/luxe-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "37418b54175163b1730ad572d8ea03469894caca2725c339dbfcbb364964890d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.6/luxe-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "3402af7d323321d7ca129eedf71a0401fdcbd5eb5714e4d17177bd730f2e7d60"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.7/luxe-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "8c3738f87dec488537bf2bb853971ee2d5ac51fc85ca529b7d287093a4e5c2bd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.6/luxe-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "213bd96ea826d7a92132535aa6cbeebd92232394d40130710a5a58880d88eae4"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.7/luxe-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9603a4f023fb9aafbc817759bb89450e5f637d64a90cac01bc880b11fa956b2d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.6/luxe-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a773379ac61016478060568a5c011d67c4a9b3929f7f26beecd88f5a7e984ae8"
+      url "https://github.com/evanwhittaker/luxe/releases/download/v0.1.7/luxe-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "93b3938ff4586bc8d81fbceb12d88ac08693559955360a8ba235ebd00cb1449e"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
